@@ -1,0 +1,514 @@
+.frame {
+      width: 100vw;
+      height: 100vh;
+      border: 1px solid #888;
+      margin: 0px auto;
+      box-shadow: 2px 2px 4px lightgrey;
+      position: relative;
+      overflow: hidden;
+      background-color: #2c4c89;
+      animation: hemelkleur 20s;
+      animation-iteration-count: infinite;
+}
+
+iframe{
+  display: none;
+}
+
+.vignette {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.9) inset;
+}
+
+#hoofd{
+  width: 50px;
+    height: 50px;
+    background: #FFD2BC;
+    position: absolute;
+    top:600px;
+    left:380px;
+}
+#haar{
+  width: 55px;
+    height: 20px;
+    background: black;
+    position:absolute;
+    top:590px;
+    left:380px;
+}
+
+#haarL{
+  width: 10px;
+    height: 45px;
+    background: black;
+    position:absolute;
+    top:596px;
+    left:370px;
+}
+
+#haarR{
+  width: 10px;
+    height: 45px;
+    background: black;
+    position:absolute;
+    top:596px;
+    left:430px;
+}
+
+#oogL{
+  width: 6px;
+  height: 6px;
+    border-radius: 50%;
+    background: black;
+    position:absolute;
+    bottom:97px;
+    left:410px;
+}
+
+#oogR{
+  width: 6px;
+  height: 6px;
+    border-radius: 50%;
+    background: black;
+    position:absolute;
+    bottom:97px;
+    left:395px;
+}
+#mond{
+  width: 10px;
+  height: 10px;
+    border-radius: 50%;
+    background: black;
+    position:absolute;
+    bottom:80px;
+    left:400px;
+}
+
+#torso{
+    width: 50px;
+      height: 70px;
+      background: black;
+      position: absolute;
+      top:645px;
+      left:380px;
+  }
+
+  #armR{
+    width: 40px;
+      height: 15px;
+      background: black;
+      position:absolute;
+      top:650px;
+      left:430px;
+  }
+
+  #armL{
+    width: 40px;
+      height: 15px;
+      background: black;
+      position:absolute;
+      top:660px;
+      left:355px;
+      transform: rotate(-50deg);
+  }
+
+#handR{
+  width: 10px;
+    height: 10px;
+    background: #FFD2BC;
+    position:absolute;
+    top:650px;
+    left:470px;
+
+}
+
+#handL{
+  width: 10px;
+    height: 10px;
+    background: #FFD2BC;
+    position:absolute;
+    top:678px;
+    left:355px;
+    transform: rotate(-50deg);
+}
+
+#zwaard {
+  width: 6px;
+    height: 70px;
+    background: #C1C1C1;
+    position:absolute;
+    top:597px;
+    left:475px;
+}
+
+#heft{
+  width: 20px;
+    height: 4px;
+    background:orange;
+    position:absolute;
+    top:644px;
+    left:468px;
+}
+#heft2{
+  width: 6px;
+    height: 18px;
+    background: black;
+    position:absolute;
+    top:648px;
+    left:475px
+}
+
+#beenL{
+  width: 20px;
+    height: 10px;
+    background: grey;
+    position:absolute;
+    bottom:10px;
+    left:380px;
+    transform: rotate(-90deg);
+
+}
+
+#beenR{
+  width: 20px;
+    height: 10px;
+    background: grey;
+    position:absolute;
+    bottom:10px;
+    left:407px;
+    transform: rotate(-90deg);
+
+}
+
+#voetR{
+  width: 20px;
+    height: 10px;
+    background: grey;
+    position:absolute;
+    bottom:0px;
+    left:409px;
+    transform: rotate(187deg);
+
+}
+
+#voetL{
+  width: 20px;
+    height: 10px;
+    background: grey;
+    position:absolute;
+    bottom:0px;
+    left:380px;
+    transform: rotate(187deg);
+
+}
+
+div #talkbubble{
+  animation-name: fadeIn;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+        width: 120px;
+        height: 50px;
+        background: white;
+        position: relative;
+        left: 230px;
+        top:488px;
+        transform: rotate(180deg);
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+      }
+      #talkbubble:before {
+        content: "";
+        position: absolute;
+        right: 95%;
+        top: 8px;
+        width: 0;
+        height: 0;
+        border-top: 13px solid transparent;
+        border-right: 26px solid white;
+        border-bottom: 13px solid transparent;
+      }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+  }
+
+  .wintertext {
+    position: relative;
+    top: 200px;
+        right: 2rem;
+        left: 5rem;
+    animation: fadeIn 5s infinite alternate;
+  }
+
+  .wintertext img{
+    width: 50rem;
+  }
+  #talkbubble h2{
+    font-size: 1rem;
+    transform: rotate(180deg);
+    font-family: monospace;
+    padding-left:1rem;
+    padding-bottom: .3rem;
+    padding-right: .3rem;
+  }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+}
+
+.wintertext {
+  position: relative;
+  top: 200px;
+
+      right: 2rem;
+      left: 5rem;
+  animation: fadeIn 10s infinite alternate;
+}
+
+.wintertext img{
+  width: 50rem;
+}
+
+
+}
+
+}
+.cloud, .cloud:before, .cloud:after {
+  position: absolute;
+  width: 70px;
+	height: 30px;
+	background: #F7FFF7;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+}
+.cloud {
+  bottom:200px;
+  -webkit-animation: cloud 40s infinite linear;
+          animation: cloud 40s infinite linear;
+}
+@-webkit-keyframes cloud {
+    0%   { left: -100px; }
+    100% { left: 1000px; }
+}
+@keyframes cloud {
+
+    0%   { left: -100px; }
+    100% { left: 1000px; }
+}
+.cloud:before {
+  content: '';
+  left: 50px;
+}
+.cloud:after {
+  content: '';
+  left: 25px;
+  top: -10px;
+}
+
+.berg1 {
+      width: 400px;
+      height: 400px;
+      background-color: #474D4F;
+      transform: rotate(45deg);
+      position: absolute;
+      bottom: -200px;
+      left: 500px
+}
+
+.berg2 {
+      width: 350px;
+      height: 250px;
+      background-color: #5C7077;
+      transform: rotate(45deg);
+      position: absolute;
+      bottom: -200px;
+      left:350px;
+}
+
+.berg3 {
+      width: 400px;
+      height: 350px;
+      background-color: #73929C;
+      transform: rotate(45deg);
+      position: absolute;
+      bottom: -195px;
+}
+
+.bergtop1{
+  width: 0;
+  height: 0;
+  border-left:90px solid transparent;
+  border-right: 90px solid transparent;
+  border-bottom: 90px solid white;
+  position: absolute;
+  bottom:155px;
+  left: 92px;
+}
+
+.bergtop2{
+  width: 0;
+  height: 0;
+  border-left:70px solid transparent;
+  border-right: 70px solid transparent;
+  border-bottom: 70px solid white;
+  position: absolute;
+  bottom:80px;
+  left: 410px;
+
+}
+
+.bergtop3{
+  width: 0;
+  height: 0;
+  border-left:70px solid transparent;
+  border-right: 70px solid transparent;
+  border-bottom: 70px solid white;
+  position: absolute;
+  bottom:210px;
+  right: 200px;
+}
+
+.ijs1 {
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 30px solid white;
+    position: absolute;
+    left: 105px;
+    bottom:126px;
+}
+
+.ijs2{
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid white;
+    position: absolute;
+    left: 170px;
+    bottom:136px;
+}
+.ijs3 {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px solid white;
+  position: absolute;
+  left: 198px;
+  bottom:127px;;
+}
+
+
+.ster {
+      width: 3px;
+      height: 3px;
+      border-radius: 50%;
+      background-color: white;
+      position: absolute;
+      opacity: 0;
+      animation: sterrennacht 60s;
+      animation-iteration-count: infinite;
+}
+.linksarm {
+	-webkit-animation: linksarm 2s infinite;
+	-moz-animation: linksarm 2s infinite;
+	-ms-animation: linksarm 2s infinite;
+	animation: linksarm .2s ease-in-out 5s 5 alternate both;;
+	-moz-animation-timing-function: linear;
+  animation-delay:5;
+  position: relative;
+  bottom:75px;
+
+}
+@keyframes linksarm {
+100%{
+	-moz-transform: rotate(30deg);
+	-ms-transform: rotate(60deg);
+  transform: rotateX(-5deg);
+
+}
+}
+.zwaardhand {
+	-webkit-animation: zwaardhand 1s infinite;
+	-moz-animation: zwaardhand 1s infinite;
+	-ms-animation: zwaardhand 1s infinite;
+	animation: zwaardhand 1s infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	-ms-animation-timing-function: linear;
+	animation-timing-function: linear;
+  position: relative;
+  bottom:77px;
+}
+@keyframes zwaardhand {
+100%{
+	-moz-transform: rotate(30deg);
+	-ms-transform: rotate(60deg);
+  transform: rotateX(-4deg);
+
+}
+
+
+}
+.ster1 {left: 100px;top: 100px;}
+.ster2 {left: 400px;top: 300px;}
+.ster3 {left: 600px;top: 200px;}
+.ster4 {left: 200px;top: 250px;}
+.ster5 {left: 300px;top: 50px;}
+.ster6 {left: 750px;top: 100px;}
+.ster7 {left: 800px;top: 300px;}
+.ster8 {left: 300px;top: 400px;}
+.ster9 {left: 400px;top: 100px;}
+.ster10 {left: 100px;top: 400px;}
+
+
+@keyframes sterrennacht {
+      50% {
+            opacity: 0;
+      }
+      55% {
+            opacity: 1;
+      }
+      89.5% {
+            opacity: 1;
+            width: 3px;
+            height: 3px;
+      }
+
+      90% {
+            width: 5px;
+            height: 5px;
+      }
+
+      90.5% {
+            opacity: 1;
+            width: 3px;
+            height: 3px;
+      }
+
+      100% {
+            opacity: 1;
+      }
+}
+
+@keyframes hemelkleur {
+      66.60% {background-color: #13132b;}
+      70.75% {background-color: #101322;}
+      75% {background-color: #111018;
+      75.75% {background-image:url("generatedtext.png");}
+      83.30% {background-color: #060709;}
+      87.45% {background-color: #060709;}
+      81.60% {background-color: #0e1420;}
+      85.75% {background-color: #0e1420;}
+      90% {background-color: #131a2d;}
+      94.15% {background-color: #172642;}
+      100% {background-color: #1f3155;}
+}
